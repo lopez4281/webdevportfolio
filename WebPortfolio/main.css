@@ -55,13 +55,19 @@ header #nav-button{
 header #nav-button a:hover {
   color: grey;
 }
-.top-section h1{
+.top-section #greeting{
   margin-top: 50px;
-  margin-bottom: 24px;
   padding: 20px;
   text-align: center;
    font-weight: bold;
    font-size: xxx-large;
+}
+.top-section #job-title{
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+   font-size: xx-large;
+
 }
 .top-section h2{
   text-align: center;
@@ -103,13 +109,15 @@ box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.32);
   order: 1;
   text-align: center;
   line-height: 1.6;
+  border: 1px solid blue;
+
 }
 .box-2{
   flex: 1;
   order: 2;
   text-align: center;
   line-height: 1.6;
-
+  border: 1px solid orange;
 }
 /*
 .main{
@@ -241,6 +249,8 @@ box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.32);
         
     .container-1 {
         display: flex;
+        border: 1px solid red;
+        
 
     }
 }
