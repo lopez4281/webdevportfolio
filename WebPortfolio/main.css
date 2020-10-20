@@ -16,7 +16,16 @@ header{
   
   padding: 10px;
 }
-
+header nav .container{
+  display: flex;
+  padding: 5px;
+  border: 1px solid yellow;
+  background-color: aqua;
+}
+header nav .container li{
+  padding: 10px;
+}
+/* 
 header .logo-area{
   color: white;
   display: inline-block;
@@ -56,6 +65,7 @@ header #nav-button{
 header #nav-button a:hover {
   color: grey;
 }
+*/
 .top-section #greeting{
   margin-top: 50px;
   padding: 20px;
