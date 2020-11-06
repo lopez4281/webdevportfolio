@@ -283,6 +283,43 @@ box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.32);
    padding-right: 15px;
  }
  */
+
+ .project-section-container{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   height: 600px;
+   font-size: 30px;
+   text-align: center;
+   background-color: blue;
+
+ }
+ .project-box{
+  background-color: red;
+  height: 50px;
+  width: 100%;
+  /*
+  margin: auto;
+  */
+  
+ }
+ .project-box h1{
+   padding: 10px;
+ }
+ .project-box-two{
+  background-color: pink;
+  padding: 27px;
+  height: 460px;
+  width: 100%;
+
+ }
+ 
+.project-box-two img{
+  height: 400px;
+  width: 400px;
+}
+
 .footer {
   margin: 20px;
 }
