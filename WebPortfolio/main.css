@@ -317,8 +317,8 @@ box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.32);
  }
  
 .project-box-two img{
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   padding: 5px;
 }
 .project-box-two h3{
@@ -409,16 +409,18 @@ box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.32);
     -moz-box-shadow: 0px 9px 5px 0px rgba(0, 0, 0, 0.32);
     box-shadow: 0px 9px 5px 0px rgba(0, 0, 0, 0.32);
   }
+  /*
   .project-box-two {
     background-color: pink;
-    /* padding: 27px; */
+    padding: 27px; 
     height: 460px;
     width: 100%;
 }
   .project-box-two img {
     height: 350px;
     width: 350px;
-}
+}*/
+
 }
 
   
