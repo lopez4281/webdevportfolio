@@ -8,72 +8,108 @@
   <title>Erik Lopez web portfolio</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/920aabcf92.js" crossorigin="anonymous"></script>
-
-
 </head>
 
 <body>
-  <header>
+  <header class="header">
+    <!-- <h1 class="logo"><a>Erik Lopez</a> </h1-->
+    <h1 class="logo"><a><img src="images/mf-logo.svg"></a></h1>
+      <ul class="main-nav">
+        <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+    <!-- Old header menu
     <div class="logo-area">
       <a href="index.html"><img src="images/mf-logo.svg"></a>
     </div>
     <div class="menu">
       <ul>
-        <li id="nav-button"><a href="index.html">
-            Home
-          </a>
+        <a href="#contact"> <li id="nav-button">
+            Contact
         </li>
-        <li id="nav-button"><a href="#about-me">
+        </a>
+        <a href="#mid"> <li id="nav-button">
             About
-          </a>
         </li>
+        </a>
       </ul>
     </div>
+  -->
+  
   </header>
   <div class="top-section">
-    <h1>Front-end Developer & Freelancer</h1>
-    <h2> I design and code beautiful things and, I love what I do!</h2>
+    <h1 id="greeting">Hi, I'm Erik Lopez.</h1>
+   <h1 id="job-title">Email Developer<!--Front-end Developer & Freelancer</h1>-->
+    <h2>  I like to code things from scratch, and enjoy bringing ideas to life in
+      the browser.</h2>
     <img
-      src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/p960x960/47181254_2023675481044629_6937837063240679424_o.jpg?_nc_cat=107&_nc_sid=85a577&_nc_ohc=bZBlNzrG-O4AX8tr2_a&_nc_ht=scontent-lax3-2.xx&_nc_tp=6&oh=9e03e4e9ee34b73161162ccbaed76fd5&oe=5F3AF49E">
+      src="images/japanprofile.jpg">
   </div>
   <div class="dev-art">
     <img src="images/hero.svg">
   </div>
-  <div class="main">
-    <div id="about-me">
-      <h2>About</h2>
-      <p>Hey there. I'm an aspiring web developer who enjoys solving
-        problems and building cool stuff with code. I am a recent graduate from
+  <!-- <div class="main">-->
+    <div class="container-1">
+      <div class= "box-1">
+    <!--<div id="about-me">-->
+      <h2 id="about">About</h2>
+      <p>I'm a Email Developer who enjoys solving
+        problems and creating professional Emails. I am self-motivated, punctional, reliable, and able to communicate effectively. Details are paid close attention
+        to when translating design mockups into HTML email documents. I am passionate about gaining knowledge, experience and improving my skills.
+       I am a graduate from
         <a href="http://www.goldenwestcollege.edu/"  target="_blank" >Golden West College</a> and have an <span style="font-style:italic;">Associates of Arts Degree in Liberal Arts: Emphasis in Computer Science and Technology</span>.
       </p>
+      <img src="images/code.png" />
     </div>
-    <div id="goals">
-      <h2>Goals</h2>
-      <p>I am passionate about front-end design and development
-        and I aim to maximize my skills in:
-      </p>
-      <ul>
+   <!--<div id="goals">-->
+     <div class="box-2">
+      <h2>Skills</h2>
+      <ul id="web-list">
         <li><i class="fab fa-html5 fa-2x"></i></li>
-        <li id="css-icon"><i class="fab fa-css3-alt fa-2x"></i></li>
+        <li><i class="fab fa-css3-alt fa-2x"></i></li>
         <li><i class="fab fa-js-square fa-2x"></i></li>
+        <li><i class="fab fa-git-alt fa-2x"></i></li>
       </ul>
-      <ul>
+      <ul id="web-lang">
         <li>HTML5</li>
-        <li id="css-list">CSS3</li>
+        <li >CSS3</li>
         <li>Javascript</li>
+        <li>Git</li>
       </ul>
-      <p>I focus on getting better at code one day at a time. I am determined to be 
-        the best version of myself that I can be. Hustle and grind. Coffee and Code.
-      </p>
+      <!-- 
+      <h2>Responsive Design</h2>
+        <p>
+          I aim to build websites that not only look good on Desktop but are
+          also Responsive and Mobile Friendly.
+        </p>
+        <img src="images/responsive.png" />
+      -->
     </div>
   </div>
+  
+  <div class="project-section-container">
+    <div class="project-box">
+      <h1 id="portfolio">My Recent Work</h1>
+      <p>Here are a few projects I've worked on recently.
+      </p>
+    </div>
+      <div class="project-box-two">
+      <a href="smartwatchemail.html"><img src="images/SmartWatch.png"></a>
+      <h3>Smartwatch</h3>
+      <p>Promotional</p>
+    </div>
+    </div>
+
 <div class="footer">
-  <ul>
-    <a href="index.html"><li><i class="fab fa-twitter fa-lg"></i></li></a>
+  <ul id="contact">
+    <a href="mailto: eriklopez142008@gmail.com"><li><i class="far fa-envelope fa-lg"></i></li></a>
     <a href="index.html"><li><i class="fab fa-instagram fa-lg"></i></li></a>
     <a href="https://github.com/lopez4281" target="_blank"><li><i class="fab fa-github fa-lg"></i></li></a>
-    <h3>Copyright 2020. Erik Lopez</h3>
+    <h3 id="contact">Copyright 2020. Erik Lopez</h3>
   </ul>
 </div>
 
